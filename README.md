@@ -21,7 +21,7 @@
 
 instale, caso não as possua:
 ```
-pip install streamlit langchain google-generativeai python-dotenv sentence-transformers
+pip install streamlit langchain google-generativeai python-dotenv sentence-transformers pandas
 ```
 
 # Explicação do Código

@@ -21,7 +21,7 @@
 
 instale, caso não as possua:
 ```
-pip install streamlit langchain google-generativeai python-dotenv sentence-transformers pandas
+pip install -r requirements.txt
 ```
 
 # Explicação do Código

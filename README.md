@@ -5,7 +5,7 @@
 
 # Funcionalidades
 - **Chat com IA:** O usuário pode fazer perguntas de acordo com a base de dados e obter respostas geradas pela IA.
-- **Base de Dados:** O sistema carrega perguntas e respostas relacionadas a Dragon Ball Z a partir de um arquivo CSV.
+- **Base de Dados:** O sistema carrega perguntas e respostas relacionadas a equipe FURIA Esports a partir de um arquivo CSV, transformando-o em um Feather, utilizando Pandas, para aumentar a eficiência.
 - **Modelo de IA:** Utiliza o modelo Google Gemini para fornecer respostas baseadas no contexto das perguntas.
 
 # Técnologias Utilizadas
@@ -16,6 +16,8 @@
 - HuggingFace
 - Streamlit
 - CSV
+- Pandas
+- Feather
 
 instale, caso não as possua:
 ```

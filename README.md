@@ -32,7 +32,7 @@ llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=google_api_key)
 O código está dividido em algumas partes principais:
 
 ## 1. Carregamento da Base de Dados
-A base de dados é um arquivo CSV contendo perguntas e respostas relacionadas ao universo de Dragon Ball Z. As perguntas são processadas e armazenadas para análise posterior.
+A base de dados é um arquivo CSV contendo perguntas e respostas relacionadas a FURIA. As perguntas são processadas e armazenadas para análise posterior.
 ## 2. Criação dos Embeddings
 Usamos o modelo HuggingFace Embeddings para criar representações vetoriais das perguntas. Esses vetores são usados para medir a similaridade entre as perguntas feitas pelo usuário e as perguntas na base de dados.
 ## 3. Modelo de IA - Google Gemini
